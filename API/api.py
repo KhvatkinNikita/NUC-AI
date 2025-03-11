@@ -25,11 +25,11 @@ class ree_api:
                 err_detail = err['detail']
 
                 raise ValueError(f'{err_title}\n{err_detail}\n')
-                
-    def make_request(self, start_date, end_date, time_trunc, geo_ids, geo_trunc=None, geo_limit=None):
+                 
+    def make_request(self, start_date, end_date, time_trunc, geo_ids, geo_limit=None, geo_trunc=None):
         *_, params = inspect.getargvalues(inspect.currentframe())
         print(f"Requesting URL: {self.url}")
-        print(f"With parameters: {params}")
+        print(f"\nWith parameters:\n" + "\n".join(f"{key}: {values}" for key, values in params.items()))
 
         r = requests.get(self.url, params=params)
 
