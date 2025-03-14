@@ -9,7 +9,7 @@ def mape(y_true, y_pred):
     """Calculate MAPE while avoiding division by zero."""
     y_true, y_pred = np.array(y_true), np.array(y_pred)
     nonzero_idx = y_true != 0
-    return np.mean(np.abs((y_true[nonzero_idx] - y_pred[nonzero_idx]) / y_true[nonzero_idx])) * 100
+    return np.mean(np.abs((y_true[nonzero_idx] - y_pred[nonzero_idx]) / y_true[nonzero_idx]))
 
 def rmse(y_true, y_pred):
     """Calculate RMSE."""
@@ -20,7 +20,7 @@ def sMAPE(y_true, y_pred):
     y_true, y_pred = np.array(y_true), np.array(y_pred)
     denominator = (np.abs(y_true) + np.abs(y_pred)) / 2
     nonzero_idx = denominator != 0
-    return np.mean(np.abs(y_true[nonzero_idx] - y_pred[nonzero_idx]) / denominator[nonzero_idx]) * 100
+    return np.mean(np.abs(y_true[nonzero_idx] - y_pred[nonzero_idx]) / denominator[nonzero_idx])
 
 def all_metrics(y_true, y_pred):
     """Compute all relevant regression metrics."""
