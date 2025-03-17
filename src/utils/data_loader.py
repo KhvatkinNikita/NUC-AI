@@ -1,6 +1,9 @@
 import pandas as pd
 
 def data_loader():
+    """
+    Manual data loader of the ISTAC dataset # TODO implement API load for less memory usage
+    """
     df = pd.read_csv('../data/dataset-ISTAC-C00022A_000005-~latest-observations.tsv', sep='\t', low_memory = False)
 
     islas = ['Tenerife', 'Gran Canaria', 'Lanzarote', 'Fuerteventura', 'La Palma', 'La Gomera', 'El Hierro'] # 7 main islands
