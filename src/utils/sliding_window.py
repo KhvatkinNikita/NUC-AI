@@ -1,4 +1,5 @@
 import numpy as np
+
 def create_sequences(data, window_size):
     """
     Create sliding window sequences
