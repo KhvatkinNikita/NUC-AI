@@ -1,6 +1,6 @@
 # NUC-AI: ENERGY DEMAND FORECASTING FOR DECENTRALISED SYSTEMS
 
-![](https://github.com/KhvatkinNikita/Innovatom2025Code/blob/main/results/nbeats_predictions.gif)
+![](https://github.com/KhvatkinNikita/Innovatom2025Code/blob/main/notebooks/desfase_Tenerife.gif)
 
 References:
 
