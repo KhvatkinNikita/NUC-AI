@@ -8,4 +8,5 @@ References:
 - Wainaina, P. (2023, October 24). The Complete Guide to Time Series Forecasting Models. Medium. https://medium.com/@wainaina.pierre/the-complete-guide-to-time-series-forecasting-models-ef9c8cd40037
 
 
+# NAF
 This work is part of the 2025 Innovatom Contest
