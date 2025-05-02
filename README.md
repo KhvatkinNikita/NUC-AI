@@ -1,6 +1,6 @@
 # NUCL-AI: ENERGY DEMAND FORECASTING FOR DECENTRALISED SYSTEMS
 
-![](https://github.com/KhvatkinNikita/Innovatom2025Code/blob/main/notebooks/desfase_Tenerife.gif)
+![](https://github.com/KhvatkinNikita/Innovatom2025Code/blob/main/outputs/pred/gifs/desfase_Tenerife.gif)
 
 References:
 
