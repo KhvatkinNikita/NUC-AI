@@ -133,4 +133,3 @@ if __name__ == "__main__":
     for isla in ISLAS_WINDOWS:
         model = load_or_train_model(isla)
         prediction = predict(isla)
-        # You can now use the `model` per island
