@@ -1,4 +1,3 @@
-# use_model.py
 import os
 import numpy as np
 import torch
@@ -64,7 +63,7 @@ def predict(isla, model_dir="outputs/model"):
     test_sequences = torch.tensor(test_sequences, dtype=torch.float32)
     test_targets = torch.tensor(test_targets, dtype=torch.float32)
 
-    # Online prediction & learning
+    # Online prediction and learning
     predictions = []
     actuals = []
     online_optimizer = optim.Adam(model.parameters(), lr=1e-6)
